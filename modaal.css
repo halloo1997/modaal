@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.tekst img {
+    height: 150px;
+    margin-top: 2em;
+}
+
+#achtergrond {
+    background-color: rgba(0,0,0,0.5) ;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+}
+
+#Venster {
+    width: 53vh;
+    margin: auto;
+    align-self: center;
+    background-color: white;
+    padding: 1em;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.button {
+    float: right;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.button:hover,
+.button:focus {
+    color: white;
+    background-color: transparent;
+}
+
+.animate {
+    animation: animatezoom 0.5s
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0) rotate(720deg)}
+    to {transform: scale(1) rotate(0deg)}
+}
+
+#Stockholm3 {
+    width: 300px;
+}
+
+#Mariska1 {
+    width: 300px;
+}
+
+#veld2{
+    width: 300px;
+}
+
+
+
+.inh {
+    text-align: left;
+}
+
+
+
